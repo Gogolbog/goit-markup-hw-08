@@ -1,0 +1,102 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+.hiden-title {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
+    &-title {
+    
+            font-size: 28px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: 0.03em;
+    
+            color: var(--main-text-color);
+    
+            margin-bottom: 30px;
+
+            @media screen and (min-width: $desktop) {
+                margin-bottom: 50px;
+
+                font-size: 36px;
+                line-height: 1.67;
+            }
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and(max-width:479px) {
+        width: 100vw;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width:$mobile) {
+        width: 480px;
+    }
+
+    @media screen and (min-width:$tablet) {
+        width: 768px;
+
+    }
+
+    @media screen and (min-width:$desktop) {
+        width: 1200px;
+
+    }
+}
