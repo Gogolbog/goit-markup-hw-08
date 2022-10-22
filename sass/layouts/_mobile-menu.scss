@@ -1,0 +1,12 @@
+.burger {
+    border: none;
+    background-color: transparent;
+
+    .is-open .burger__menu {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}

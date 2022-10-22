@@ -2,15 +2,6 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-// .container {
-//     width: 1200px;
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     margin-right: auto;
-//     margin-left: auto;
-//     display: flex;
-//     align-items: center;
-// }
 .header-container {
     display: flex;
     align-items: center;
@@ -19,6 +10,9 @@
 .header-container .logo {
     padding-top: 16px;
     padding-bottom: 16px;
+    @media screen and (max-width: 767px) {
+        margin-right: auto;
+    }
 }
 
 .container-nav {

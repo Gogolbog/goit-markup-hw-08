@@ -139,6 +139,11 @@ textarea {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+@media screen and (max-width: 767px) {
+  .header-container .logo {
+    margin-right: auto;
+  }
+}
 
 .container-nav {
   display: -webkit-box;
@@ -797,6 +802,26 @@ textarea {
 .btn-close:hover svg,
 .btn-close:focus svg {
   fill: var(--accent-color);
+}
+
+.burger {
+  top: 10px;
+  right: 15px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.burger .is-open .burger__menu {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
 }
 
 .section-hero {
