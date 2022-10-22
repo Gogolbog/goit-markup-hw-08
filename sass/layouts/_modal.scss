@@ -21,8 +21,10 @@
 
 .modal {
     position: absolute;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
+    // width: 528px;
+    // height: 581px;
     padding: 40px;
     top: 50%;
     left: 50%;
@@ -33,6 +35,11 @@
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    
+    @media screen and (min-width: $desktop) {
+        width: 528px;
+        height: 581px;
+    }
 }
 
 .modal-title {
@@ -133,6 +140,10 @@
     letter-spacing: 0.03em;
 
     color: #757575;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+    }
 }
 
 .accept a {

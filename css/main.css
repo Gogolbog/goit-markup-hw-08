@@ -538,8 +538,8 @@ textarea {
 
 .modal {
   position: absolute;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -553,6 +553,12 @@ textarea {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal-title {
@@ -683,6 +689,11 @@ textarea {
   letter-spacing: 0.03em;
   color: #757575;
 }
+@media screen and (max-width: 1199px) {
+  .accept label {
+    font-size: 12px;
+  }
+}
 
 .accept a {
   letter-spacing: 0.03em;
@@ -805,13 +816,6 @@ textarea {
 }
 
 .burger {
-  top: 10px;
-  right: 15px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
   border: none;
   background-color: transparent;
 }
