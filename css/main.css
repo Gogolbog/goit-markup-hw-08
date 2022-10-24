@@ -537,9 +537,11 @@ textarea {
 }
 
 .modal {
+  width: calc(100% - 30px);
   position: absolute;
-  width: 450px;
   height: 609px;
+  max-height: 90vh;
+  overflow-y: scroll;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -553,6 +555,11 @@ textarea {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
