@@ -20,12 +20,12 @@
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
+        justify-content: center;
     }
 }
 
 @media screen and (min-width: $tablet) and (max-width: 1199px) {
     .cont {
-         margin-left: 76px;
          margin-bottom: 60px;
         }
         .footer-social {
