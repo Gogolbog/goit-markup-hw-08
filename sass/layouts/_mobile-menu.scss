@@ -17,6 +17,10 @@ background-color: var(--white-color);
 &.is-open {
         transform: translateX(0);
     }
+
+    @media screen and (min-width: 767px) {
+        display: none;
+    }
 }
 
 .menu-toggle {
@@ -100,6 +104,10 @@ background-color: var(--white-color);
                 color: var(--accent-color);
             }
     }
+}
+
+.number {
+    font-size: 34px;
 }
 
 .menu-social {
