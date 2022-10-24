@@ -262,6 +262,32 @@ textarea {
   fill: currentColor;
 }
 
+@media screen and (max-width: 1199px) {
+  .mail-svg {
+    width: 14px;
+    height: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mail-svg {
+    width: 16px;
+    height: 12px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .phone-svg {
+    width: 10px;
+    height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .phone-svg {
+    width: 10px;
+    height: 16px;
+  }
+}
+
 .nav-link {
   padding-top: 32px;
   padding-bottom: 32px;
