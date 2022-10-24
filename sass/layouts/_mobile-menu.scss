@@ -76,6 +76,10 @@ background-color: var(--white-color);
         }
 }
 
+.navigation__list .current {
+    color: var(--accent-color);
+}
+
 .authorization {
     margin-bottom: 64px;
 

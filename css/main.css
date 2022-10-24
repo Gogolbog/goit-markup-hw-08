@@ -935,6 +935,10 @@ textarea {
   margin-bottom: 30px;
 }
 
+.navigation__list .current {
+  color: var(--accent-color);
+}
+
 .authorization {
   margin-bottom: 64px;
 }
