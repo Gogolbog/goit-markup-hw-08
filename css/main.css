@@ -563,10 +563,16 @@ textarea {
     width: 450px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .modal {
+    overflow-y: scroll;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
     height: 581px;
+    overflow-y: hidden;
   }
 }
 
