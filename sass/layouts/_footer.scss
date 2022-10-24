@@ -16,11 +16,16 @@
 
 .footer__container {
     text-align: center;
+
     @media screen and (min-width: $tablet) {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
         justify-content: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        text-align: left;
     }
 }
 

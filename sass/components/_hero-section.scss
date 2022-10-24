@@ -27,7 +27,7 @@
                     url('../images/hero-back-phone-2x.jpg');
             }
         
-    @media (min-width: 481px) {
+    @media (min-width: 767px) {
                 padding-top: 118px;
                 padding-bottom: 118px;
                 background-image: linear-gradient(to right, rgb(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
@@ -41,7 +41,7 @@
                 }
             }
         
-    @media (min-width: 769px) {
+    @media (min-width: 1199px) {
                 max-width: 1600px;
                 padding-top: 118px;
                 padding-bottom: 204px;
